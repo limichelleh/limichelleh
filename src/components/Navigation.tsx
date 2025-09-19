@@ -21,7 +21,7 @@ const Navigation = () => {
             to="/" 
             className="text-xl font-bold text-navy hover:text-primary transition-colors"
           >
-            Michelle L.
+            Michelle Li
           </Link>
           
           <div className="hidden md:flex items-center space-x-1">

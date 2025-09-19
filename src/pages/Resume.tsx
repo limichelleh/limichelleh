@@ -75,7 +75,7 @@ const Resume = () => {
           {/* Header */}
           <header className="mb-12 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-navy mb-4">
-              Michelle L. Rodriguez
+              Michelle Li
             </h1>
             <h2 className="text-xl text-muted-foreground mb-6">
               Senior UX Designer & Researcher
