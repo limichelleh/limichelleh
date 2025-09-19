@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import DarkModeToggle from "./DarkModeToggle";
 
 const Navigation = () => {
   const location = useLocation();
@@ -37,10 +38,12 @@ const Navigation = () => {
                 <Link to={item.path}>{item.name}</Link>
               </Button>
             ))}
+            <DarkModeToggle />
           </div>
 
-          {/* Mobile menu button - simplified for now */}
-          <div className="md:hidden">
+          {/* Mobile menu - simplified for now */}
+          <div className="md:hidden flex items-center space-x-2">
+            <DarkModeToggle />
             <Button variant="ghost" size="sm">
               Menu
             </Button>

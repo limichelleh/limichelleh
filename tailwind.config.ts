@@ -70,6 +70,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        sans: ['JetBrains Mono', 'monospace'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-card': 'var(--gradient-card)',
